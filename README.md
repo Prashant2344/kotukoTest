@@ -43,6 +43,6 @@
 
 7. After running the application, you can see there are five different categories where three categories (Movies, Politics, Lifestyle) have proper slug value which will then render data by fetching from Api whereas remaining two categories (Sports,Entertainment) have slug that does not meet requirement and hence will receive invalid request response.
 
-8. For testing slug validation I have created a trait file inside App\Http\Traits which will return if the slug is valid or not.
+8. For testing slug validation I have created a trait file inside App\Http\Traits which will return whether the slug is valid or not.
 
 9. Api url and Api key details are mentioned in .env file
